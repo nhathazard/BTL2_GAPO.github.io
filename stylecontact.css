@@ -1,0 +1,632 @@
+* {
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+    list-style: none;
+}
+a { color: inherit; } 
+html{
+    font-family: 'Poppins', sans-serif;
+}
+
+.Header_container{
+    height: 83px;
+    grid-template-columns: repeat(12, minmax(0, 1fr));
+    display: grid;
+    align-items: center;
+    padding-left: 38px;
+    background: #F5F5F5;
+}
+.Header_title{
+    grid-column: 1 / span 4;
+    font-style: normal;
+font-weight: 600;
+font-size: 23px;
+line-height: 34px;
+color: #000000;
+}
+
+.Header_list{
+    grid-column: 7 / span 5;
+   display: flex;
+   justify-content: space-around;
+    list-style-type: none;
+    font-style: normal;
+   font-weight: 500;
+font-size: 14px;
+line-height: 21px;
+}
+.Header_icon{
+    cursor: pointer;
+    padding-left: 25px;
+}
+
+
+.Banner{
+    display: flex;
+   
+}
+.Banner_construction{
+    position: relative;
+    width: 60%;
+   color: #FFFFFF;
+    background-image: linear-gradient(0,rgba(31, 31, 31, 0.85),#1F1F1F), url(./acssets/images/Rectangle11.png);
+   
+    height: 491px;
+}
+
+.Banner_construction_item {
+    width: 758px;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+}
+.Banner_construction_item1{
+    display: flex;
+    margin-left: 63px;
+}
+.Banner_construction_item2{
+    margin-left: 115px;
+    margin-top: 45px;
+
+}
+.Banner_hr{
+    width: 104px;
+height: 0px;
+border: 10px solid #FFB400;
+transform: rotate(-90deg);
+}
+.Banner_btn{
+    cursor: pointer;
+    position:absolute;
+display: flex;
+flex-direction: row;
+justify-content: center;
+align-items: center;
+gap: 10px;
+width: 230px;
+height: 55px;
+color: #FFFFFF;
+background: #FFB400;
+font-size: 14px;
+line-height: 17px;
+bottom: 60px;
+left: 113px;
+}
+.Banner_contactinfo{
+    display: flex;
+    flex-flow: column;
+    width: 40%;
+    background: #FFB400;
+    color: #2A2A2A;
+}
+.Banner_contactinfo_container{
+    margin-left: 42px;
+    margin-right: 87px;
+    margin-top: 49px;
+}
+.Banner_contactinfo_item{
+    margin-top: 26px;
+}
+.Banner_contact_dscr{
+    font-family: 'Open Sans';
+font-style: normal;
+font-weight: 400;
+font-size: 15px;
+line-height: 27px;
+letter-spacing: 0.04em;
+color: #2A2A2A;
+flex: none;
+order: 1;
+flex-grow: 0;
+margin-top: 4px;
+}
+.Banner_contactinfo_title{
+    margin-top:18px ;
+}
+.Banner_contactinfo_icon{
+    margin-top: 44px;
+}
+.Underbanner_btn{
+    cursor: pointer;
+    color: #FFB400;
+    border: 4px solid #FFB400;
+    text-align: center;
+    font-size: 14px;
+line-height: 17px;
+width: 230px;
+height: 55px;
+background: #FFFFFF;
+font-style: normal;
+font-weight: 600;
+}
+.Under_banner{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+   
+}
+.Under_banner_title1{
+    font-family: 'Rubik';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 50px;
+    color: #FFB400;
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+    padding: 18px 0px;
+}
+.Under_banner_title{
+    margin-top: 45px;
+    margin-bottom: 46px;
+}
+.Questions_container {
+    background: #F7F7F7;
+    padding-bottom: 100px;
+}
+.Questions{
+    padding-top: 54px;
+    margin-left: 172px;
+    margin-right: 172px;
+    display: flex;
+}
+.Questions_title{
+    font-style: normal;
+font-weight: 700;
+font-size: 40px;
+line-height: 50px;
+color: #2A2A2A;
+}
+.Questions_left{
+    width: 330px;
+}
+.Questions_hr{
+    border: 5px solid #FFB400;
+    width: 48px;
+    height: 0px;
+    margin-top: 38px;
+    margin-bottom: 25px;
+}
+.Questions_desc{
+    font-family: 'Open Sans';
+font-style: normal;
+font-weight: 400;
+font-size: 15px;
+line-height: 27px;
+letter-spacing: 0.04em;
+color: #666666;
+margin-bottom: 56px;
+}
+.Getintouch{
+    font-family: 'Rubik';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 17px;
+    letter-spacing: 0.1em;
+    border: 3px solid #FFB400;
+    color: #FFB400;
+    width: 170px;
+    height: 40px;
+    text-align: center;
+    background: #F7F7F7;
+}
+.Questions_container{
+    background: #F7F7F7;
+}
+.Questions_right{
+    background: #FFFFFF;
+    margin-left: 57px;
+    width: 648px;
+}
+
+.Questions_rightcontainer{
+    display: flex;
+    margin-top: 40px;
+    margin-right: 34px;
+    margin-left: 24px;
+    justify-content: space-between;
+    margin-bottom: 12px;
+}
+
+.Questions_rightcontainfather{
+    position: relative;
+}
+.Questions_rightdscr{
+   font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 27px;
+    letter-spacing: 0.04em;
+    color: #666666;
+    margin-left: 24px;
+    margin-right: 40px;
+    top: 100%;
+    height: 0;
+    overflow: hidden;
+    transition: height 1s linear;
+}
+.Questions_rightdscr.active {
+    height: 82px;
+}
+.Questions_icon {
+    width: 30px;
+    height: 30px;
+    cursor: pointer;
+    
+    border-radius: 100%;
+    background-color: orange;
+    position: relative;
+    margin-left: 90px;
+    }
+    .Questions_icon:after, .Questions_icon:before {
+      content: '';
+      position: absolute;
+      top:50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+      
+      width: 24px;
+      height: 3px;
+      border-radius: 2px;
+      
+      background:white;
+      transition: all 0.3s linear;
+    }
+    
+    .Questions_icon:after {
+      transform: translate(-50%, -50%) rotate(-90deg);
+    }
+  
+     .Questions_icon.active:after{
+      transform: translate(-50%, -50%);
+    }
+    
+  .Questions_icon:before {
+      transform: translate(-50%, -50%) rotate(-180deg);
+    }
+    .Contact{
+        display: flex;
+      }
+      .Contact_hr{
+        border: 3px solid #FFB400;
+        width: 48px;
+        height: 0px;
+        margin-bottom: 40px;
+        margin-top: 38px;
+    }
+     .Contact_leftitem{
+        margin-left: 62px;
+       
+     }
+      .Contact_left{
+        width: 50%;
+        background: #F7F7F7;
+      }
+      .Contact_submit{
+        cursor: pointer;
+        width: 180px;
+        height: 34px;
+        border: 3px solid #2A2A2A;
+        background: #F7F7F7;;
+        font-family: 'Rubik';
+        font-style: normal;
+        font-weight: 600;
+        font-size: 14px;
+        line-height: 17px;
+        letter-spacing: 0.1em;
+        color: #2A2A2A;
+        margin-top: 28px;
+        float: right;
+      }
+      #fname{
+        height: 40px; 
+        width:100%;
+        margin-top: 24px;
+      }
+      #lname{
+        height: 40px; 
+        width:100%;
+        margin-top: 24px;
+      }
+      #Message{
+        height: 132px; 
+        width:100%;
+        margin-top: 24px;
+      }
+      @media only screen and (min-device-width: 1024px) {
+        .Header_container2{
+            display: none;
+        }
+    }
+    @media only screen and (min-device-width: 740px) and (max-device-width: 1023px) {
+        header{
+            position: relative;
+            background: #F5F5F5;
+        }
+       
+        .Header_container {
+            display: none;
+            position: relative;
+        } 
+        .Header_container2 {
+            background: #F5F5F5;
+            height: 60px;
+           display: flex;
+           justify-content: space-between;
+           align-items: center;
+        }
+        .Header_title {
+            grid-column: 1 / span 4;
+            font-style: normal;
+            font-weight: 600;
+            font-size: 16px;
+            color: #000000;
+            margin-left: 12px;
+        }
+        .Menu {
+            display: inline-block;
+            cursor: pointer;
+            margin-right: 15px;
+          }
+          
+          .bar1, .bar2, .bar3 {
+            width: 30px;
+            height: 3px;
+            background-color: #333;
+            margin: 8px 0;
+            transition: 0.5s;
+          }
+          
+          .change .bar1 {
+            -webkit-transform: rotate(-45deg) translate(-9px, 6px);
+            transform: rotate(-45deg) translate(-9px, 6px);
+          }
+          
+          .change .bar2 {opacity: 0;}
+          
+          .change .bar3 {
+            -webkit-transform: rotate(45deg) translate(-8px, -8px);
+            transform: rotate(45deg) translate(-8px, -8px);
+          }
+          .Header_list2{
+            position: absolute;
+          top: 100%;
+          background: #F5F5F5;
+          width: 100%;
+          height: 0;
+          overflow: hidden;
+          padding-left: 6px;
+          transition: height 1s linear;
+          list-style: none;
+          z-index: 1;
+        }
+        .Header_list2.active {
+            background: #F5F5F5;
+            height: 219px;
+            z-index: 1;
+            width: 100%;
+            font-size: 16px;
+            padding-left: 6px;
+            transition: height 1s linear;
+            list-style: none;
+        }
+        .Banner {
+            display: flex;
+            flex-flow: column;
+        }
+        .Banner_construction {
+            position: relative;
+            width: 100%;
+            color: #FFFFFF;
+            background-image: linear-gradient(0,rgba(31, 31, 31, 0.85),#1F1F1F), url(./acssets/images/Rectangle11.png);
+            height: 491px;
+        }
+        .Banner_contactinfo {
+            display: flex;
+            flex-flow: column;
+            width: 100%;
+            background: #FFB400;
+            color: #2A2A2A;
+            padding-bottom: 30px;
+            align-items: center;
+        }
+        .Under_banner_title1 {
+            font-size: 40px;
+        }
+        .Questions {
+            padding-top: 54px;
+            margin-left: 12px;
+            margin-right: 12px;
+            display: flex;
+            flex-flow: column;
+        }
+        .Contact_left {
+            width: auto;
+            background: #F7F7F7;
+        }
+        .Contact_leftitem {
+            margin-left: 0;
+        }
+        .Questions_right {
+            background: #FFFFFF;
+            width: auto;
+            margin-top: 60px;
+            margin-left: 0;
+        }
+    }
+    @media only screen and (max-device-width: 739px){
+        header{
+            position: relative;
+            background: #F5F5F5;
+        }
+        .Header_container2 {
+            background: #F5F5F5;
+            height: 60px;
+           display: flex;
+           justify-content: space-between;
+           align-items: center;
+        }
+        .Header_container {
+            display: none;
+        }
+        .Header_list2{
+            position: absolute;
+          top: 100%;
+          background: #F5F5F5;
+          width: 100%;
+          height: 0;
+          overflow: hidden;
+          padding-left: 6px;
+          transition: height 1s linear;
+          list-style: none;
+          z-index: 1;
+        }
+        .Header_list2.active {
+            background: #F5F5F5;
+            height: 219px;
+            z-index: 1;
+            width: 100%;
+            font-size: 16px;
+            padding-left: 6px;
+            transition: height 1s linear;
+            list-style: none;
+        }
+      
+        .Menu {
+            display: inline-block;
+            cursor: pointer;
+            margin-right: 15px;
+          }
+          
+          .bar1, .bar2, .bar3 {
+            width: 30px;
+            height: 3px;
+            background-color: #333;
+            margin: 8px 0;
+            transition: 0.5s;
+          }
+          
+          .change .bar1 {
+            -webkit-transform: rotate(-45deg) translate(-9px, 6px);
+            transform: rotate(-45deg) translate(-9px, 6px);
+          }
+          
+          .change .bar2 {opacity: 0;}
+          
+          .change .bar3 {
+            -webkit-transform: rotate(45deg) translate(-8px, -8px);
+            transform: rotate(45deg) translate(-8px, -8px);
+          }
+        .Header_title {
+            grid-column: 1 / span 4;
+            font-style: normal;
+            font-weight: 600;
+            font-size: 16px;
+            line-height: 34px;
+            color: #000000;
+        }
+      
+        .Banner {
+            display: flex;
+            flex-flow: column;
+        }
+        .Banner_construction {
+            position: relative;
+            width: 100%;
+            color: #FFFFFF;
+            background-image: linear-gradient(0,rgba(31, 31, 31, 0.85),#1F1F1F), url(./acssets/images/Rectangle11.png);
+            height: 491px;
+        }
+        .Banner_construction_item1 {
+            display: flex;
+            margin-left: 12px;
+        }
+        .Banner_construction_item2 {
+            margin-left: 40px;
+            margin-top: 45px;
+            width: 357px;
+        }
+        .Banner_btn {
+            cursor: pointer;
+        left: 90px;
+        }
+        .Banner_contactinfo {
+            display: flex;
+            flex-flow: column;
+            width: 100%;
+            background: #FFB400;
+            color: #2A2A2A;
+            padding-bottom: 30px;
+        }
+        .Under_banner {
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+            flex-flow: column;
+            padding-bottom: 30px;
+        }
+        .Under_banner_title {
+            margin-top: 40px;
+            margin-bottom: 40px;
+            font-size: 18px;
+            display: flex;
+            flex-flow: column;
+            align-items: center;
+            text-align: center;
+        }
+        .Under_banner_title1{
+            font-size: 30px;
+        }
+        .Questions {
+            padding-top: 50px;
+            margin-left: 12px;
+            margin-right: 12px;
+            display: flex;
+            flex-flow: column;
+        }
+        .Contact_left {
+            width: 100%;
+            background: #F7F7F7;
+        }
+        .Contact_leftitem {
+            margin-left: 0;
+        }
+        .Questions_right {
+            background: #FFFFFF;
+            margin-left: 0;
+            width: 100%;
+            margin-top: 30px;
+            font-size: 13px;
+        }
+        .Questions_icon {
+            width: 25px;
+            height: 25px;
+            cursor: pointer;
+            border-radius: 100%;
+            background-color: orange;
+            position: relative;
+            margin-left: 20px;
+        }
+        .Questions_rightdscr.active {
+            height: 82px;
+            font-size: 13px;
+        }
+        .Questions_rightdscr {
+            font-style: normal;
+            font-weight: 400;
+            font-size: 15px;
+            line-height: 27px;
+            letter-spacing: 0.04em;
+            color: #666666;
+            margin-left: 24px;
+            margin-right: 40px;
+            top: 100%;
+            height: 0;
+            overflow: hidden;
+            transition: height 1s linear;
+            font-size: 13px;
+        }
+    }
